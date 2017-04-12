@@ -2,7 +2,7 @@
 
 IMAGE_SRC=$1
 URL=https://westus.api.cognitive.microsoft.com/vision/v1.0/describe
-API_KEY=11e09e236c35431792b628d1c745e7d1
+API_KEY={KEY}
 
 if [ -e "$IMAGE_SRC" ]
 then
